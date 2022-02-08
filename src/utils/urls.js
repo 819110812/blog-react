@@ -1,8 +1,8 @@
 // url的链接
 export const urls = {
-  login: 'login',
+  login: '/api/v1/login',
   logout: 'logout',
-  register: 'register',
+  register: '/api/v1/register',
   getUser: 'getUser',
 
   addComment: 'addComment',
