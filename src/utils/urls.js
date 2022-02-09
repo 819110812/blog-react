@@ -9,7 +9,7 @@ export const urls = {
   addThirdComment: 'addThirdComment',
   getCommentList: 'getCommentList',
 
-  getArticleList: 'getArticleList',
+  getArticleList: '/api/v1/articleList',
   likeArticle: 'likeArticle',
   getArticleDetail: 'getArticleDetail',
 

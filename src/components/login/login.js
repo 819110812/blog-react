@@ -33,7 +33,7 @@ class Login extends Component {
         { withCredentials: true },
       )
       .then(res => {
-        if (res.status === 200 && res.data.code === 0) {
+        if (res.status === 200 && res.data.code === 200) {
           this.props.loginSuccess(res.data);
           let userInfo = {
             _id: res.data.data._id,
@@ -49,10 +49,13 @@ class Login extends Component {
           });
         } else {
           this.props.loginFailure(res.data.message);
+          console.log(res.data.message)
           message.error(res.data.message, 1);
         }
       })
       .catch(err => {
+        console.log(123)
+        this.props.loginFailure(null);
         console.log(err);
       });
   }
