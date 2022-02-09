@@ -1,6 +1,6 @@
 import './index.less';
 import './marked.css';
-import logo from '../../assets/userLogo.jpeg';
+import logo from '../../assets/userLogos.jpeg';
 import React, { Component } from 'react';
 import Comment from '../comments/comment';
 import CommentList from '../comments/list';
