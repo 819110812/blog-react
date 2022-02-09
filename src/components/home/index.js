@@ -1317,7 +1317,7 @@ class Index extends Component {
               </a>
             </div>
             {/* <div className="logion"> 加班到天明，学习到昏厥 ！！！ </div> */}
-            <div className="introduce"> 时光正好，未来可期，加油 ！ </div>
+            <div className="introduce"> 杰尼杰尼！ </div>
           </div>
         </div>
       </div>
