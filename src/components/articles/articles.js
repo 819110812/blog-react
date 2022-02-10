@@ -147,7 +147,7 @@ class Articles extends Component {
         let num = this.state.pageNum;
         if (res.status === 200 && res.data.code === 0) {
           this.setState(preState => ({
-            articlesList: [...preState.articlesList, ...res.data.data.list],
+            articlesList: [...preState.articlesList, ...res.data.data],
             total: res.data.data.count,
             pageNum: ++num,
             isLoading: false,

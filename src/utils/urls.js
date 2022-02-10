@@ -1,15 +1,15 @@
 // url的链接
 export const urls = {
-  login: '/api/v1/login',
+  login: '/api/login',
   logout: 'logout',
-  register: '/api/v1/register',
+  register: '/api/register',
   getUser: 'getUser',
 
   addComment: 'addComment',
   addThirdComment: 'addThirdComment',
   getCommentList: 'getCommentList',
 
-  getArticleList: '/api/v1/articleList',
+  getArticleList: '/api/articleList',
   likeArticle: 'likeArticle',
   getArticleDetail: 'getArticleDetail',
 

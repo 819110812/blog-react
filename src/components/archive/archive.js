@@ -113,5 +113,4 @@ class Archive extends Component {
             );
         }
     }
-
-    export default Archive;
+export default Archive;
